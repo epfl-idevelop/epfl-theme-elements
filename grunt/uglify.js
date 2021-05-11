@@ -18,9 +18,9 @@ module.exports = {
     files: {
       'dist/js/elements.min.js': [
         'node_modules/jquery/dist/jquery.min.js',
-        'tmp/js/vendors.min.js',
-        'tmp/js/vendors.bundle.js',
-        'tmp/js/app.bundle.js'
+        'node_modules/epfl-elements/js/vendors.min.js',
+        'node_modules/epfl-elements/js/vendors.bundle.js',
+        'node_modules/epfl-elements/js/app.bundle.js'
       ]
     }
   }

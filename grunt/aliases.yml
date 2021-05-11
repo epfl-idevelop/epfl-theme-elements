@@ -5,6 +5,7 @@ test:
   - 'eslint'
 
 release:
+  - 'clean'
   - 'replace'
   - 'copy:icons'
   - 'cssmin'

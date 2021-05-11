@@ -12,7 +12,6 @@ module.exports = {
   target: [
     '**/*.js',
     '!node_modules/**/*.js',
-    '!tmp/**/*.js',
     '!dist/**/*.js',
     '!release/**/*.js'
   ]
